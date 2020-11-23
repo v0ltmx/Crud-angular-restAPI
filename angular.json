@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "crud-rest"
+  "defaultProject": "crud-rest",
+  "cli": {
+    "analytics": false
+  }
 }

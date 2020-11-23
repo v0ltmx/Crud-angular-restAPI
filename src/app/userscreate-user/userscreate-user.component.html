@@ -1,0 +1,26 @@
+<h2>Criar usuário</h2>
+<div>
+    <label>Name:
+      <input type="text" 
+             ng-model="request.name"
+              />
+    </label>
+    <br>
+    <label>Profi:
+      <input type="text"
+             ng-model="request.job"
+             />
+    </label>
+    <br>
+    <button (click)="save()">Enviar</button>
+</div>
+<br><br>
+
+<div>
+    <h3>Criado!</h3>
+    <label>Nome:{{response.name}}</label>
+    <label>Profissão:{{response.job}}</label>
+    <label>Id:{{response.id}}</label>
+    <label>Criado:{{response.createdAt}}</label>
+
+</div>
